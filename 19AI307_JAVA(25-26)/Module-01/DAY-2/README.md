@@ -48,6 +48,7 @@ RegisterNumber:
 ```
 
 ## SOURCE CODE:
+```
 import java.util.Scanner;
 
 public class PirateCodeLock {
@@ -71,9 +72,7 @@ public class PirateCodeLock {
     }
 }
 
-
-
-
+```
 
 
 ## OUTPUT:
@@ -82,3 +81,4 @@ public class PirateCodeLock {
 
 ## RESULT:
 Therefore,the program has been executed successfully.
+
