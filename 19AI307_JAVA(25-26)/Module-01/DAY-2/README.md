@@ -3,13 +3,13 @@
 ## QUESTION:
 A pirate ship has a code lock that only opens if:
 
-The input code is even, and
+1)The input code is even, and
 
-If it is less than 100, say "Weak Code".
+2)If it is less than 100, say "Weak Code".
 
-If it is between 100 and 999, say "Strong Code".
+3)If it is between 100 and 999, say "Strong Code".
 
-If the code is odd, deny access.
+4)If the code is odd, deny access.
 
 ## AIM:
 Aim:
@@ -81,4 +81,5 @@ public class PirateCodeLock {
 
 ## RESULT:
 Therefore,the program has been executed successfully.
+
 
