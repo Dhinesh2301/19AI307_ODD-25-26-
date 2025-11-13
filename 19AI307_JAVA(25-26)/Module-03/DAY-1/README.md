@@ -38,11 +38,11 @@ To build an inheritance-based Java program that calculates the final price of go
 
        Override getDiscountRate() to return 5%.
 
-7. Add calculateCashback() → returns 1% of final price.
+7.  Add calculateCashback() → returns 1% of final price.
 
-8. Override display() to show final price + cashback.
+8.  Override display() to show final price + cashback.
 
-9.Call display() to show the complete bill with discounts.
+9.  Call display() to show the complete bill with discounts.
 
 
 
@@ -183,3 +183,4 @@ public class GoldRateSystem {
 
 ## RESULT:
 Therefore the program successfully applies different discount rules for regular and premium customers.
+
