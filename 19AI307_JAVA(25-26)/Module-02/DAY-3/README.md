@@ -8,23 +8,27 @@ To write a Java program that defines a class BankAccount with private attributes
 
 ## ALGORITHM :
 1. Define a class BankAccount with two private instance variables:
-      String accountNumber
-      double balance
 
-2. Create public getter and setter methods for both variables:
+        String accountNumber
+
+        double balance
+
+3. Create public getter and setter methods for both variables:
 
       getAccountNumber() and setAccountNumber()
+   
+   
       getBalance() and setBalance()
 
-3. In the main() method, create a Scanner object to read input from the user.
+5. In the main() method, create a Scanner object to read input from the user.
 
-4. Create an object of the BankAccount class.
+6. Create an object of the BankAccount class.
 
-5. Read the account number and balance from the user and store them using setter methods.
+7. Read the account number and balance from the user and store them using setter methods.
 
-6. Retrieve and print the stored values using getter methods.
+8. Retrieve and print the stored values using getter methods.
 
-7. Close the Scanner and end the program.
+9. Close the Scanner and end the program.
 
 
 
@@ -92,3 +96,4 @@ public class prog {
 
 ## RESULT:
 Therfore the program successfully stores account details using setter methods and retrieves them using getter methods.
+
