@@ -4,20 +4,14 @@
 In a secret intelligence facility, encrypted messages are stored as arrays of characters. Each type of agent has a different way to decode these messages. Define an abstract class Decoder with a method decodeMessage(String[] fragments).
 There are two types of agents:
 
-AlphaAgent: Extracts a meaningful string by rearranging the fragments based on even indices first, then odd indices, and then reversing the final result.
+   AlphaAgent: Extracts a meaningful string by rearranging the fragments based on even indices first, then odd indices, and then reversing the final result.
 
-BetaAgent: Picks all fragments that start and end with the same letter, joins them with -, and removes all vowels from the resulting string.
-
-Input Format:
-
-First line: Integer N (number of fragments)  
-Next N lines: The string fragments  
-Next line: 1 for AlphaAgent, 2 for BetaAgent
-
+   BetaAgent: Picks all fragments that start and end with the same letter, joins them with -, and removes all vowels from the resulting string.
 
 
 ## AIM:
 To create an abstract class Decoder with an abstract method decodeMessage(), and implement two subclasses, AlphaAgent and BetaAgent, each with a unique decoding technique for encrypted message fragments.
+
 ## ALGORITHM :
 1. Create an abstract class Decoder containing an abstract method decodeMessage(String[] fragments).
 
@@ -138,3 +132,4 @@ public class Main {
 
 ## RESULT:
 Therefore the program successfully decodes messages using the rules defined for AlphaAgent and BetaAgent.
+
