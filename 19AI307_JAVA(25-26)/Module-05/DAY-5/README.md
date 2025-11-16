@@ -4,12 +4,22 @@
 Maintain two int variables a and b, read their initial values from user. Use synchronized block to swap them and print swapped values.
 
 ## AIM:
-
+To write a Java program that reads two integers from the user and swaps their values using a synchronized block to ensure thread-safe operations.
 
 ## ALGORITHM :
-1.	Start the program.
-2.	Import the necessary package 'java.util'
-3.	
+1. Read two integer values a and b from the user.
+
+2. Create a lock object to use inside the synchronized block.
+
+3. Enter the synchronized block using the lock object.
+
+4. Swap the values of a and b using a temporary variable.
+
+5. Exit the synchronized block once the swap is complete.
+
+6. Print the swapped values of a and b.
+
+7. Close the scanner.
 
 
 
@@ -56,4 +66,5 @@ public class SwapUsingSynchronized {
 
 ## RESULT:
 Therefore the program successfully swaps two integers within a synchronized block, ensuring safe and controlled access.
+
 
