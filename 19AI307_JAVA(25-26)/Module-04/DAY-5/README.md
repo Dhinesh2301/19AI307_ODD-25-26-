@@ -25,7 +25,7 @@ Create a ChatRoom class (mediator) and two users (colleagues) who send and recei
 ## PROGRAM:
  ```
 /*
-Program to implement a Behaviour Pattern using Java
+Program to implement a  Pattern using Java
 Developed by: DHINESH R 
 RegisterNumber: 212223220019 
 */
@@ -111,4 +111,5 @@ public class ChatApp {
 
 ## RESULT:
 Therefore the program successfully demonstrates message exchange using the Mediator Pattern, with all user communication routed through the ChatRoom.
+
 
